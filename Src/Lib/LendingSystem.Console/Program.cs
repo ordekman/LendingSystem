@@ -43,8 +43,6 @@ namespace LendingSystem.Console
             System.Console.WriteLine($"Rate: {loan.AnnualInterestRate:P1}");
             System.Console.WriteLine($"Monthly repayment: £{loan.PaymentAmountPerPeriod.Round()}");
             System.Console.WriteLine($"Total repayment: £{loan.TotalPaymentAmount.Round()}");
-
-            System.Console.ReadLine();
         }
 
         private static bool ValidateParameters(string[] args, out string csvPath, out decimal amount)
