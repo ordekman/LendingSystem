@@ -1,0 +1,9 @@
+*.suo
+.vs/
+bin/
+packages/
+*.user
+Src/Lib/LendingSystem.Console/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+Src/Lib/LendingSystem.Console/obj/
+Src/Lib/LendingSystem.Tests/obj/
+Src/Lib/LendingSystem/obj/
